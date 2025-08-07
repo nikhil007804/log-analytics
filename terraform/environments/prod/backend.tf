@@ -1,8 +1,9 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "tfstate-rg1"      
-    storage_account_name = "tfstatestorageacct11"      
-    container_name       = "tfstate"                 
+    resource_group_name  = "anv"      
+    storage_account_name = "anvv"      
+    container_name       = "anvvv"                 
     key                  = "terraform.tfstate"  
   }
 }
+
